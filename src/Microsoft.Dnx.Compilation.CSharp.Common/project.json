@@ -13,7 +13,11 @@
                 "System.Runtime": ""
             }
         },
-        "dnxcore50": { }
+        "dnxcore50": {
+            "dependencies": {
+                "System.Globalization": "4.0.10-beta-*"
+            }
+        }
     },
 
     "scripts": {
